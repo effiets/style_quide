@@ -1,0 +1,92 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: 4px 100px;
+}
+section{
+    border: 2px solid gray;
+    margin: 4px 100px;
+    height: auto;
+
+}
+h2{
+    margin-left: 10px;
+}
+/* color boxes*/
+
+ .color_container{
+    display: inline-block;
+    height: 100px;
+    width: 30%;
+    margin: 5px;
+    margin-left: 10px;
+    text-align: center;
+
+ }
+.teal{
+    background-color: teal;
+    color: white;
+}
+.gold{
+    background-color: gold
+}
+.salmon{
+    background-color: salmon;
+}
+.purple{
+    background-color:purple;
+    color: white;
+}
+
+/* fonts boxes*/
+
+.font_container{
+    display: inline-block;
+    height: 100px;
+    width: 40%;
+    margin: 2px;
+    margin-left: 10px;
+    text-align: left;
+}
+.font1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 16px;
+}
+.font2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+}
+.font3{
+    font-family: 'Indie Flower', cursive;
+    font-size: 16px;
+}
+
+.title{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.bold{
+    font-weight: 900;
+}
+.italics{
+    font-style: italic;
+}
+
+/* text boxes*/
+.text_container{
+    display: block;
+    margin-left: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+ul{
+    line-height: 30px;
+}
+li{
+    letter-spacing: 1px;
+}
